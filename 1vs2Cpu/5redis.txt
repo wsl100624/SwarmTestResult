@@ -1,0 +1,60 @@
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+k18zi76kv0z1        redis.1             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+yb6u1qam5t85        redis.2             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+lf2i300mcsff        redis.3             redis:3.0.7         will-VirtualBox     Running             Running 3 seconds ago                       
+71ueowjcjk2l        redis.4             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+c0p4lxokhzs6        redis.5             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+r5y90jgf0flx        redis.1             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+rphwvwlqbzg3        redis.2             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+vyd97rbkes2a        redis.3             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+u14f2z28priw        redis.4             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+ogeaguvta5fl        redis.5             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+ymhi20qfb5ae        redis.1             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+zbllt5dou82q        redis.2             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+wuen5mlcmrp0        redis.3             redis:3.0.7         will-VirtualBox     Running             Running 3 seconds ago                       
+a15mugjap3a2        redis.4             redis:3.0.7         will-VirtualBox     Running             Running 3 seconds ago                       
+jacg69r7t229        redis.5             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+7dw3tixskxwn        redis.1             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+s3tktvjd36sv        redis.2             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+3s6fl5rb5pnl        redis.3             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+p6235078qttm        redis.4             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+94optjnu0e1e        redis.5             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+7q5pa1mefb6l        redis.1             redis:3.0.7         will-VirtualBox     Running             Running 3 seconds ago                       
+qre713guung8        redis.2             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+g1w89zj2sf93        redis.3             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+mkc13iy0u1en        redis.4             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+nj395lbipju7        redis.5             redis:3.0.7         will-VirtualBox     Running             Running 3 seconds ago                       
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+d807125z6f8d        redis.1             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+x72gfbfm6gza        redis.2             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+hym62gpuelsc        redis.3             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+ryqyiidsj9tf        redis.4             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+9sb5pa5jxqw4        redis.5             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+iovbv3dicsh5        redis.1             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+blvamja0m6ye        redis.2             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+wwp1uxwln7xt        redis.3             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+f81b6chgpqgf        redis.4             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+3b82zy26tns6        redis.5             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+ypp2te74kg0x        redis.1             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+h0vz3n3q928j        redis.2             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+o9myiqhet3vr        redis.3             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+gr3uc3ttd2qu        redis.4             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+4xbg5ri8y56k        redis.5             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+xffxya5pkgju        redis.1             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+yun66hjojdcs        redis.2             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+ktigfinyeo0s        redis.3             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+xgi3e8680h3i        redis.4             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+2wyb6mfffp7c        redis.5             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE           ERROR               PORTS
+xdzleq64d9pd        redis.1             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+1o9c5u5a1wdf        redis.2             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
+67sq93a52y89        redis.3             redis:3.0.7         will1-VirtualBox    Running             Running 4 seconds ago                       
+hjgmcqsecvs0        redis.4             redis:3.0.7         will-VirtualBox     Running             Running 3 seconds ago                       
+jsmycsnbqjeh        redis.5             redis:3.0.7         will-VirtualBox     Running             Running 4 seconds ago                       
