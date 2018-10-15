@@ -1,0 +1,4 @@
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE                ERROR               PORTS
+obbvk7baddth        redis.1             redis:3.0.7         worker3             Running             Running 54 seconds ago                           
+w99mggt4irwl        redis.2             redis:3.0.7         worker4             Running             Running 55 seconds ago                           
+2njnulof2q77        redis.3             redis:3.0.7         worker2             Running             Running about a minute ago                       

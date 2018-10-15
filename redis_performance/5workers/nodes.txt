@@ -1,0 +1,7 @@
+ID                            HOSTNAME            STATUS              AVAILABILITY        MANAGER STATUS      ENGINE VERSION
+noaaranwnbdwepe5z22qjnptf *   Manager             Ready               Active              Leader              18.06.1-ce
+2fnyinpxlu4xjmqv76p0t1ydf     worker1             Ready               Active                                  18.06.1-ce
+mcqaxsdbkrr98693zhbwj0b7v     worker2             Ready               Active                                  18.06.1-ce
+6gzwkborr5nyb2ba5qlltt5ll     worker3             Ready               Active                                  18.06.1-ce
+wjsgy5ziflg6vfufg5a46copi     worker4             Ready               Active                                  18.06.1-ce
+zokcxp5vptiv8so8of1e1th2h     worker5             Ready               Active                                  18.06.1-ce
