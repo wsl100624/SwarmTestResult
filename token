@@ -1,3 +1,5 @@
+docker swarm join --token SWMTKN-1-67vpkeydsac6wvb4wwb9h90pu5fgetn5zioxyxzmxdsm2hemoz-5slw05new9fl5bbwvv7iksbgs 192.168.86.112:2377
+
 docker swarm join --token SWMTKN-1-1b518cfrbrhmhtyueembpnyiok4kj160xgezehj8d3v1af9dgo-54wvjzzfj2zm0kqd9id6cnmdd 192.168.0.17:2377
 
 
@@ -8,3 +10,5 @@ docker swarm join --token SWMTKN-1-1vaw8if46pq6r05vo1lbxnnas46jxa7tpx0jp6if0vxtc
 
 docker swarm join --token SWMTKN-1-68q343j3uh5vcmp44nc5erzg45fctraz7yi4lqyk0het3bfnl0-08thm8iz93o464zt4rzr4vv8a 192.168.86.112:2377
 
+
+docker swarm join --token SWMTKN-1-67vpkeydsac6wvb4wwb9h90pu5fgetn5zioxyxzmxdsm2hemoz-5slw05new9fl5bbwvv7iksbgs 192.168.86.112:2377
