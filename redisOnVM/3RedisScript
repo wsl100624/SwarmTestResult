@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+for i in {1..10}
+do
+	sudo docker service create --replicas 3 --name redis --update-delay 15s redis:3.0.7
+	echo "$i Round........" >>3redis.txt
+	sudo docker service ps --format "{{.Node}}: {{.CurrentState}}" redis >> 3redis.txt
+	sudo docker service rm redis
+done
+
