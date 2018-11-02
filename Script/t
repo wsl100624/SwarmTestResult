@@ -1,0 +1,9 @@
+9 workers
+
+6 redis node
+or
+4 redis node
+
+no/2/4 node with stress (hdd / cpu / RAM)
+
+
