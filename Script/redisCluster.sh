@@ -7,7 +7,7 @@ cluster-node-timeout 5000
 appendonly yes'
 
 #network=host
-num_replicas=6
+num_replicas=9
 
 #docker network create --driver overlay $network
 
