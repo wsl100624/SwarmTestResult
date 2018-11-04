@@ -1,0 +1,7 @@
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE                ERROR               PORTS
+lqeb0x1rjavz        redis.1             redis:5.0           ip-10-10-3-133      Running             Running about a minute ago                       
+un6pkvw4k0l2        redis.2             redis:5.0           ip-10-10-1-83       Running             Running about a minute ago                       
+q7l1v9lz52c7        redis.3             redis:5.0           ip-10-10-1-135      Running             Running about a minute ago                       
+twhx743av97z        redis.4             redis:5.0           ip-10-10-5-6        Running             Running about a minute ago                       
+tjqna0gxyhqm        redis.5             redis:5.0           ip-10-10-3-251      Running             Running about a minute ago                       
+sgv6jhefptay        redis.6             redis:5.0           ip-10-10-3-54       Running             Running about a minute ago                       
