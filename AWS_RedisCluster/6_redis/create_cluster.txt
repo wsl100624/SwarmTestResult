@@ -1,45 +1,49 @@
-ubuntu@ip-10-10-2-51:~/SwarmTestResult/AWS_RedisCluster/6_redis$ redis-cli --cluster create 10.10.3.133:6379 10.10.1.83:6379 10.10.1.135:6379 10.10.5.6:6379 10.10.3.251:6379 10.10.3.54:6379 --cluster-replicas 1
+ubuntu@ip-10-10-6-41:~/SwarmTestResult/AWS_RedisCluster/6_redis$ redis-cli --cluster create 10.10.5.201:6379 10.10.5.93:6379 10.10.1.111:6379 10.10.5.60:6379 10.10.3.153:6379 10.10.3.222:6379 --cluster-replicas 1
 >>> Performing hash slots allocation on 6 nodes...
 Master[0] -> Slots 0 - 5460
 Master[1] -> Slots 5461 - 10922
 Master[2] -> Slots 10923 - 16383
-Adding replica 10.10.5.6:6379 to 10.10.3.133:6379
-Adding replica 10.10.3.251:6379 to 10.10.1.83:6379
-Adding replica 10.10.3.54:6379 to 10.10.1.135:6379
-M: e4459fab7eb7315eb4c21410027fa3fc84509a70 10.10.3.133:6379
+Adding replica 10.10.5.60:6379 to 10.10.5.201:6379
+Adding replica 10.10.3.153:6379 to 10.10.5.93:6379
+Adding replica 10.10.3.222:6379 to 10.10.1.111:6379
+M: 98f38e90e0713276987b1e8b12a2838dfee98a8d 10.10.5.201:6379
    slots:[0-5460] (5461 slots) master
-M: f90021f8a3ee246106a1dfa60a3931680d92b6dc 10.10.1.83:6379
+M: c6e48176ed9f8fbdf269af79a8bea90a2197128c 10.10.5.93:6379
    slots:[5461-10922] (5462 slots) master
-M: b2d1409a4d918ed85efc4076b8c9bd1c289cd48a 10.10.1.135:6379
+M: 6403eebb2dc79f58a6aa1dc7f53efce0f6587958 10.10.1.111:6379
    slots:[10923-16383] (5461 slots) master
-S: 3993235d7a22339f07eb61d027b43cf103982e74 10.10.5.6:6379
-   replicates e4459fab7eb7315eb4c21410027fa3fc84509a70
-S: 9f00af7793d5936ee6ade4364b6f3d565c79893c 10.10.3.251:6379
-   replicates f90021f8a3ee246106a1dfa60a3931680d92b6dc
-S: e2ad5ef932acf19365f1da254fe5d037f11ab29d 10.10.3.54:6379
-   replicates b2d1409a4d918ed85efc4076b8c9bd1c289cd48a
+S: 62e1eb34c8d8be26ebf7198551c6770743b894e9 10.10.5.60:6379
+   replicates 98f38e90e0713276987b1e8b12a2838dfee98a8d
+S: 41f02ffb79dd7d1703d2ebb2c94ea622006431c0 10.10.3.153:6379
+   replicates c6e48176ed9f8fbdf269af79a8bea90a2197128c
+S: e746686d77b363f844dec0595f43de35dc10f50e 10.10.3.222:6379
+   replicates 6403eebb2dc79f58a6aa1dc7f53efce0f6587958
 Can I set the above configuration? (type 'yes' to accept): yes
 >>> Nodes configuration updated
 >>> Assign a different config epoch to each node
 >>> Sending CLUSTER MEET messages to join the cluster
 Waiting for the cluster to join
-...
->>> Performing Cluster Check (using node 10.10.3.133:6379)
-M: e4459fab7eb7315eb4c21410027fa3fc84509a70 10.10.3.133:6379
+..
+>>> Performing Cluster Check (using node 10.10.5.201:6379)
+M: 98f38e90e0713276987b1e8b12a2838dfee98a8d 10.10.5.201:6379
    slots:[0-5460] (5461 slots) master
    1 additional replica(s)
-M: f90021f8a3ee246106a1dfa60a3931680d92b6dc 10.10.1.83:6379
+M: c6e48176ed9f8fbdf269af79a8bea90a2197128c 10.10.5.93:6379
    slots:[5461-10922] (5462 slots) master
    1 additional replica(s)
-M: b2d1409a4d918ed85efc4076b8c9bd1c289cd48a 10.10.1.135:6379
+S: 41f02ffb79dd7d1703d2ebb2c94ea622006431c0 10.10.3.153:6379
+   slots: (0 slots) slave
+   replicates c6e48176ed9f8fbdf269af79a8bea90a2197128c
+S: e746686d77b363f844dec0595f43de35dc10f50e 10.10.3.222:6379
+   slots: (0 slots) slave
+   replicates 6403eebb2dc79f58a6aa1dc7f53efce0f6587958
+M: 6403eebb2dc79f58a6aa1dc7f53efce0f6587958 10.10.1.111:6379
    slots:[10923-16383] (5461 slots) master
    1 additional replica(s)
-S: 3993235d7a22339f07eb61d027b43cf103982e74 10.10.5.6:6379
+S: 62e1eb34c8d8be26ebf7198551c6770743b894e9 10.10.5.60:6379
    slots: (0 slots) slave
-   replicates e4459fab7eb7315eb4c21410027fa3fc84509a70
-S: e2ad5ef932acf19365f1da254fe5d037f11ab29d 10.10.3.54:6379
-   slots: (0 slots) slave
-   replicates b2d1409a4d918ed85efc4076b8c9bd1c289cd48a
-S: 9f00af7793d5936ee6ade4364b6f3d565c79893c 10.10.3.251:6379
-   slots: (0 slots) slave
-   replicates f90021f8a3ee246106a1dfa60a3931680d92b6dc
+   replicates 98f38e90e0713276987b1e8b12a2838dfee98a8d
+[OK] All nodes agree about slots configuration.
+>>> Check for open slots...
+>>> Check slots coverage...
+[OK] All 16384 slots covered.

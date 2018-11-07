@@ -1,7 +1,7 @@
-ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE                ERROR               PORTS
-lqeb0x1rjavz        redis.1             redis:5.0           ip-10-10-3-133      Running             Running about a minute ago                       
-un6pkvw4k0l2        redis.2             redis:5.0           ip-10-10-1-83       Running             Running about a minute ago                       
-q7l1v9lz52c7        redis.3             redis:5.0           ip-10-10-1-135      Running             Running about a minute ago                       
-twhx743av97z        redis.4             redis:5.0           ip-10-10-5-6        Running             Running about a minute ago                       
-tjqna0gxyhqm        redis.5             redis:5.0           ip-10-10-3-251      Running             Running about a minute ago                       
-sgv6jhefptay        redis.6             redis:5.0           ip-10-10-3-54       Running             Running about a minute ago                       
+ID                  NAME                IMAGE               NODE                DESIRED STATE       CURRENT STATE            ERROR               PORTS
+cs8z6ejrxp1f        redis.1             redis:5.0           ip-10-10-3-153      Running             Running 27 minutes ago                       
+j8ps0xz678k4        redis.2             redis:5.0           ip-10-10-5-201      Running             Running 27 minutes ago                       
+cls4z1l74bdk        redis.3             redis:5.0           ip-10-10-5-60       Running             Running 27 minutes ago                       
+ae02ytwkgnaa        redis.4             redis:5.0           ip-10-10-5-93       Running             Running 27 minutes ago                       
+qdvqp3sujp19        redis.5             redis:5.0           ip-10-10-1-111      Running             Running 27 minutes ago                       
+oh7jrg7vc9ue        redis.6             redis:5.0           ip-10-10-3-222      Running             Running 27 minutes ago                       
